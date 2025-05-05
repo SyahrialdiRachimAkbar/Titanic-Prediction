@@ -27,13 +27,12 @@ def load_model(path):
     return joblib.load(path)
 
 # Define paths
-PROJECT_DIR = "/home/ubuntu/data_analysis_project"
-DATA_PATH = os.path.join(PROJECT_DIR, "Titanic-Dataset.csv")
-PREPROCESSOR_PATH = os.path.join(PROJECT_DIR, "preprocessor.joblib")
-MODEL_PATH = os.path.join(PROJECT_DIR, "models", "random_forest.joblib") # Using Random Forest as the best model
-EVALUATION_METRICS_PATH = os.path.join(PROJECT_DIR, "evaluation", "evaluation_metrics.csv")
-VISUALIZATIONS_DIR = os.path.join(PROJECT_DIR, "visualizations")
-EVALUATION_DIR = os.path.join(PROJECT_DIR, "evaluation")
+DATA_PATH = os.path.join("Titanic-Dataset.csv")
+PREPROCESSOR_PATH = os.path.join("preprocessor.joblib")
+MODEL_PATH = os.path.join("models", "random_forest.joblib") # Using Random Forest as the best model
+EVALUATION_METRICS_PATH = os.path.join("evaluation", "evaluation_metrics.csv")
+VISUALIZATIONS_DIR = os.path.join("visualizations")
+EVALUATION_DIR = os.path.join("evaluation")
 
 # Load necessary files
 df_raw = load_data(DATA_PATH)
