@@ -1,0 +1,36 @@
+--- Missing Values After Imputation ---
+PassengerId    0
+Survived       0
+Pclass         0
+Name           0
+Sex            0
+Age            0
+SibSp          0
+Parch          0
+Ticket         0
+Fare           0
+Embarked       0
+dtype: int64
+
+--- DataFrame Head After Feature Engineering ---
+   Survived  Pclass     Sex   Age     Fare Embarked  FamilySize
+0         0       3    male  22.0   7.2500        S           2
+1         1       1  female  38.0  71.2833        C           2
+2         1       3  female  26.0   7.9250        S           1
+3         1       1  female  35.0  53.1000        S           2
+4         0       3    male  35.0   8.0500        S           1
+
+Visualizations saved to /home/ubuntu/data_analysis_project/visualizations
+
+--- Processed Features Head ---
+   num__Pclass  num__Age  ...  cat__Embarked_Q  cat__Embarked_S
+0     0.827377 -0.534891  ...              0.0              1.0
+1    -1.566107  0.668392  ...              0.0              0.0
+2     0.827377 -0.234070  ...              0.0              1.0
+3    -1.566107  0.442776  ...              0.0              1.0
+4     0.827377  0.442776  ...              0.0              1.0
+
+[5 rows x 9 columns]
+
+Processed data saved to /home/ubuntu/data_analysis_project/processed_data.csv
+Preprocessor saved to /home/ubuntu/data_analysis_project/preprocessor.joblib

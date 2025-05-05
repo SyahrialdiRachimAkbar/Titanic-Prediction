@@ -1,0 +1,16 @@
+Training set shape: (712, 9)
+Test set shape: (179, 9)
+
+Training Logistic Regression...
+Logistic Regression Accuracy: 0.8101
+Logistic Regression model saved to /home/ubuntu/data_analysis_project/models/logistic_regression.joblib
+
+Training Random Forest...
+Random Forest Accuracy: 0.8156
+Random Forest model saved to /home/ubuntu/data_analysis_project/models/random_forest.joblib
+
+Training Gradient Boosting...
+Gradient Boosting Accuracy: 0.8101
+Gradient Boosting model saved to /home/ubuntu/data_analysis_project/models/gradient_boosting.joblib
+
+Model training complete.

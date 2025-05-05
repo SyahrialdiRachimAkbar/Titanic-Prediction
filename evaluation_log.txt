@@ -1,0 +1,30 @@
+
+Evaluating Logistic Regression...
+  Accuracy: 0.8101
+  Precision: 0.7869
+  Recall: 0.6957
+  F1-Score: 0.7385
+  ROC AUC: 0.8378
+  Confusion Matrix saved to /home/ubuntu/data_analysis_project/evaluation/logistic_regression_confusion_matrix.png
+
+Evaluating Random Forest...
+  Accuracy: 0.8156
+  Precision: 0.7903
+  Recall: 0.7101
+  F1-Score: 0.7481
+  ROC AUC: 0.8341
+  Confusion Matrix saved to /home/ubuntu/data_analysis_project/evaluation/random_forest_confusion_matrix.png
+
+Evaluating Gradient Boosting...
+  Accuracy: 0.8101
+  Precision: 0.8182
+  Recall: 0.6522
+  F1-Score: 0.7258
+  ROC AUC: 0.8202
+  Confusion Matrix saved to /home/ubuntu/data_analysis_project/evaluation/gradient_boosting_confusion_matrix.png
+
+Combined ROC Curve saved to /home/ubuntu/data_analysis_project/evaluation/combined_roc_curve.png
+
+Evaluation metrics saved to /home/ubuntu/data_analysis_project/evaluation/evaluation_metrics.csv
+
+Model evaluation complete.
