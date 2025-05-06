@@ -122,7 +122,7 @@ elif page == "Exploratory Data Analysis":
                                   title="Survival Distribution by Passenger Class",
                                   labels={"Pclass": "Passenger Class", "Survived": "Survived (0=No, 1=Yes)"},
                                   category_orders={"Survived": [0, 1]})
-        fig_pclass.update_layout(yaxis_title="Number of Passengers", xaxis=dict(tickmode=\'linear\'))
+        fig_pclass.update_layout(yaxis_title="Number of Passengers", xaxis=dict(tickmode='linear'))
         st.plotly_chart(fig_pclass, use_container_width=True)
 
         # Plot 4: Age Distribution
